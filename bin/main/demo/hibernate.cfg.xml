@@ -20,7 +20,7 @@
         <!-- Update database on startup -->
         <property name="hibernate.hbm2ddl.auto">update</property>
   
-      
+      <mapping resource="demo/emp.hbm.xml"/>
         
          
     </session-factory>

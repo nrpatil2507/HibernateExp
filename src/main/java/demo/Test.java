@@ -15,7 +15,8 @@ public class Test {
 	e.setName("Nutan");
 	e.setCmpname("axelor");
 		
-	Configuration cn=new Configuration().configure().addAnnotatedClass(Emp.class);
+	Configuration cn=new Configuration();
+	cn.configure("demo/hibernate.cfg.xml");
 	SessionFactory sf=cn.buildSessionFactory();
 	
 	Session s=sf.openSession();
