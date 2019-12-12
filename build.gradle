@@ -1,0 +1,23 @@
+apply plugin :'application'
+apply plugin :'eclipse'
+repositories{
+	mavenCentral()
+}
+
+dependencies{
+	// https://mvnrepository.com/artifact/org.hibernate/hibernate-core
+compile group: 'org.hibernate', name: 'hibernate-core', version: '5.2.18.Final'
+
+
+implementation 'com.google.guava:guava:23.0'
+implementation 'org.postgresql:postgresql:42.2.2'
+    // Use JUnit test framework
+    testImplementation 'junit:junit:4.12'
+}
+mainClassName ='demo.demo'
+
+task hello{
+	doLast{
+	println("hello");
+	}
+}
