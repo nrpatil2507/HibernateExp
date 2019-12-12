@@ -1,11 +1,7 @@
 package demo;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-
-@Entity
 public class Emp {
-	@Id
+	
 	int id;
 	String name;
 	String cmpname;

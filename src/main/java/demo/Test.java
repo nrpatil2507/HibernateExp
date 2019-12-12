@@ -11,8 +11,8 @@ public class Test {
 		
 		
 	Emp e=new Emp();
-	e.setId(1);
-	e.setName("Nutan");
+	e.setId(2);
+	e.setName("Siya");
 	e.setCmpname("axelor");
 		
 	Configuration cn=new Configuration();
